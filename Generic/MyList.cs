@@ -64,5 +64,14 @@ namespace Generic
 
             return result != null ? result.Value : default;
         }
+
+        public T? this[int key]
+        {
+            get => ElementAt(key);
+        }
+
+        public void Remove(T data)
+        {
+        }
     }
 }

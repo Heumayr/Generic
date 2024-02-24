@@ -37,6 +37,11 @@ namespace Generic
             mylist3.Add(square);
 
             Console.WriteLine(mylist3.ElementAt(1));
+
+            for (int i = 0; i < mylist3.Count; i++)
+            {
+                Console.WriteLine(mylist3[i]);
+            }
         }
     }
 }
